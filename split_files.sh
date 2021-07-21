@@ -6,7 +6,7 @@ echo "Splitting file..."
 
 # Moving to that directory and split big file
 cd files
-split -dl 1000000 --additional-suffix=.csv ../covid.csv covid_
+split -dn 3 --additional-suffix=.csv ../covid.csv covid_
 echo "Done"
 
 FILES="*.csv"
