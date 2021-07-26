@@ -11,6 +11,7 @@ import subprocess
 # Giving permissions to bash  scripts
 subprocess.run(["chmod", "+x", "downloadCovid_db.sh"])
 subprocess.run(["chmod", "+x", "split_files.sh"])
+subprocess.run(["chmod", "+x", "removeOldFiles.sh"])
 
 # Downloading file
 subprocess.call("./downloadCovid_db.sh")

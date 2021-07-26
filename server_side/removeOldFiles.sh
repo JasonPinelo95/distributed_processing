@@ -1,4 +1,4 @@
 #!/bin/bash
 
 rm -rf files/
-rm covid.csv
+rm -rf processedFiles
