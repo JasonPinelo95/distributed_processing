@@ -47,4 +47,5 @@ done
 
 rm header.csv
 rm ../covid.csv
+touch ready
 
