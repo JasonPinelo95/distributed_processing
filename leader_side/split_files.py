@@ -12,9 +12,13 @@ import subprocess
 subprocess.run(["chmod", "+x", "downloadCovid_db.sh"])
 subprocess.run(["chmod", "+x", "split_files.sh"])
 subprocess.run(["chmod", "+x", "removeOldFiles.sh"])
+subprocess.run(["chmod", "+x", "checkfiles.sh"])
 
 # Downloading file
 subprocess.call("./downloadCovid_db.sh")
 
 # Splitting file
 subprocess.call("./split_files.sh")
+
+# Waiting for new files
+subprocess.call("./checkfiles.sh")
