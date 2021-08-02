@@ -53,11 +53,11 @@ conn.commit()
 
 #Useful Tools
 Null_date = "'9999-99-99'"
-list_s = ['Aguascalientes', 'Baja California', 'Baja California Sur', 'Campeche', 
-          'Chiapas', 'Chihuahua', 'Ciudad de México', 'Coahuila', 'Colima', 'Durango', 
-          'Guanajuato', 'Guerrero', 'Hidalgo', 'Jalisco', 'México', 'Michoacán', 
-          'Morelos', 'Nayarit', 'Nuevo León', 'Oaxaca', 'Puebla', 'Querétaro', 
-          'Quintana Roo', 'San Luis Potosí', 'Sinaloa', 'Sonora', 'Tabasco', 
+list_s = ['Aguascalientes', 'Baja California', 'Baja California Sur', 'Campeche',
+          'Coahuila','Colima','Chiapas', 'Chihuahua', 'Ciudad de México', 'Durango',
+          'Guanajuato', 'Guerrero', 'Hidalgo', 'Jalisco', 'México', 'Michoacán',
+          'Morelos', 'Nayarit', 'Nuevo León', 'Oaxaca', 'Puebla', 'Querétaro',
+          'Quintana Roo', 'San Luis Potosí', 'Sinaloa', 'Sonora', 'Tabasco',
           'Tamaulipas', 'Tlaxcala', 'Veracruz', 'Yucatán', 'Zacatecas']
 
 
