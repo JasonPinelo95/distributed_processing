@@ -22,3 +22,7 @@ subprocess.call("./split_files.sh")
 
 # Waiting for new files
 subprocess.call("./checkfiles.sh")
+
+# Removing Files
+subprocess.call("./removeOldFiles.sh")
+

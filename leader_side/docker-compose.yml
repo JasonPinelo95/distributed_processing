@@ -1,0 +1,20 @@
+version: '3.9'
+
+services:
+    web:
+        build: .
+        command: >
+            /bin/bash -c "chmod +x init_script.sh
+            && ./init_script.sh"
+        volumes:
+            - ./django_files:/code
+        ports:
+            - "8000:8000"
+
+    nginx:
+        build: ./nginx
+        ports:
+            - 80:80
+        depends_on:
+            - web
+        restart: "on-failure"
